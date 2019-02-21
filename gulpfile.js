@@ -37,6 +37,7 @@ gulp.task('styles', function () {
         // Auto-prefix css styles for cross browser compatibility
         .pipe(autoprefixer({
             browsers: AUTOPREFIXER_BROWSERS
+            //browsers: ['last 99 versions'],
         }))
         // Minify the file
         .pipe(csso())

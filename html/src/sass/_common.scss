@@ -6,3 +6,8 @@ body {
     background: url('#{$img-path}/bg.png') repeat-x;
 }
 
+@include respond-below(sm) {
+    section {
+        width: 100%;
+    }
+}
