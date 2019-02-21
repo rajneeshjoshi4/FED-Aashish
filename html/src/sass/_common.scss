@@ -1,9 +1,9 @@
-body {
-    font-size: 15px;
-    color: $darkgray;
-    font-family: "Lato, Helvetica, Arial, sans-serif";
-    line-height: 1.4px;
-    background: url('#{$img-path}/bg.png') repeat-x;
+a {
+    text-decoration: none;
+}
+
+input:focus {
+    border: 1px solid #368393 !important;
 }
 
 @include respond-below(sm) {

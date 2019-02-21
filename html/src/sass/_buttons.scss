@@ -1,0 +1,30 @@
+.btn-one {
+    @include buttonPorp($lightergray);
+    margin-right: 3px;
+
+    &:hover {
+        border-color: transparent !important;
+        background-color: $lightgray !important;
+    }
+
+    &:active,
+    &:focus {
+        @include buttonActivePorp();
+    }
+}
+
+.btn-two {
+    @include buttonPorp(#368393);
+
+    &:hover {
+        border-color: transparent !important;
+        background-color: #276774 !important;
+
+    }
+
+    &:active,
+    &:focus {
+        @include buttonActivePorp();
+    }
+
+}
